@@ -1,0 +1,69 @@
+body {
+    background: #4B79A1;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #283E51, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1 {
+    text-align: left;
+    font-size: 5em;
+    color: rgb(141, 12, 12);
+    text-decoration-line: underline;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row: 1;
+
+}
+
+.wrapper {
+    display: grid;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 20% 33%;
+}
+
+.text {
+    grid-column: 2;
+    grid-row: 2;
+    font-size: 2em;
+}
+
+.text input{
+    font-size: 1em;
+}
+
+.button {
+    grid-column: 3;
+    grid-row: 2;
+    justify-self: center;
+    margin-top: 60px;
+}
+
+.button > button {
+    font-size: 2em;
+    background-color: aquamarine;
+    box-shadow: 10px 10px #283E51;
+    display: center;
+    width: 150px;
+    height: 150px;
+}
+
+.button > button:hover {
+    background-color: rgb(43, 170, 128);
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.list {
+    grid-column: 1;
+    grid-row: 1;
+    color: white;
+    font-size: large;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
